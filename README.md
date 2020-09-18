@@ -28,9 +28,24 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain what a token is used for.
+
+  Tokens in React app can be viewed as authentification. In a form that requires a username and password to access private data, a token is created when a correct set of credentials are used to log in. A token is then created to give you access to a site on the React app that you did not have before.
+
 2. What steps can you take in your web apps to keep your data secure?
+
+  One major way is to create Protected Routes meaning it requires a token to access a specific page. 
+
 3. Describe how web servers work.
+
+  The first thing a web server does is obtaining the IP Address from domain name. This is done in two ways: searching in its chache or requesting one or more DNS servers
+
+  With that IP address, it requests the full URL. the server responds to the browser by sending the desired pages, or errors if pages do not exist or some other error occurs 
+
+  The browser than displays the data retrieved.
+
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+  the PUT (U for update) and DELETE (D for DELETE) in CRUD
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
